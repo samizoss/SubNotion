@@ -30,13 +30,13 @@ def is_duplicate(new_title, existing_titles_norm):
         return True
 
     for existing in existing_titles_norm:
-        if len(existing) > 15 and existing in new_norm:
+        if len(existing) > 30 and existing in new_norm:
             return True
-        if len(new_norm) > 15 and new_norm in existing:
+        if len(new_norm) > 30 and new_norm in existing:
             return True
         if len(existing) > 10:
             ratio = SequenceMatcher(None, new_norm, existing).ratio()
-            if ratio > 0.85:
+            if ratio > 0.92:
                 return True
     return False
 

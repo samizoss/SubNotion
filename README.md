@@ -70,7 +70,7 @@ https://notion.so/YOUR_WORKSPACE/DATABASE_ID_HERE?v=...
 | `TRANSCRIPT_API_KEY` | No | [TranscriptAPI.com](https://transcriptapi.com) key for YouTube transcripts |
 | `YOUTUBE_CHANNEL_ID` | No | YouTube channel ID for video matching |
 
-6. Railway will auto-deploy. The cron job runs at **9 AM and 9 PM EST** automatically.
+6. Railway will auto-deploy. The cron job runs at **10 AM and 10 PM EST** automatically.
 
 That's it! New Substack posts will appear in your Notion database twice a day.
 
